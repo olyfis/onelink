@@ -1,0 +1,118 @@
+th.theader {
+	background-color: #5DADE2;
+	border-style : solid;
+	border-width : 0px 1px 1px 0px;
+	font-family: Tahoma, Verdana, Trebuchet MS, sans-serif;
+	font-size: 11px;
+	font-weight : bold;
+}
+
+td.table_cell {
+	background-color: #cdc0b0;
+	border-style : solid;
+	border-width : 0px 1px 1px 0px;
+	font-family: Tahoma, Verdana, Trebuchet MS, sans-serif;
+	font-size: 11px;
+	font-weight : bold;
+}
+td.table_cell_div {
+	background-color: #cdc0b0;
+	border-style : solid;
+	border-width : 0px 1px 1px 0px;
+	font-family: Tahoma, Verdana, Trebuchet MS, sans-serif;
+	font-size: 11px;
+	font-weight : bold;
+	width="100px"
+}
+td {
+  font-size: 11px;
+  font-weight: normal;
+  margin-top: 5px;
+}
+table.a {
+    table-layout: auto;  
+}
+th.b, td.b {
+    border: 1px solid black;
+    width: 20px;
+    background-color: #5DADE2;
+}
+tr.b {
+    border: 1px solid black;
+    width: 20px;
+    background-color: deepskyblue;
+}
+th, td {
+    border: 1px solid black;
+    width: 150px;
+}
+th.c, td.c {
+    border: 1px solid black;
+    width: 300px;
+}
+
+th.a, td.a {
+    border: 1px solid black;
+    width: 150px;
+}
+th.s, td.s {
+    border: 1px solid black;
+    width: 50px;
+}
+th.e, td.e {
+    border: 1px solid black;
+    width: 80px;
+}
+
+/* Extra selectors needed to override the default styling */
+table.tablesorter tbody tr.normal-row td {
+  background: #D7DBDD;
+  color: #000;
+}
+table.tablesorter tbody tr.alt-row td {
+  background: #AEB6BF;
+  color: #000;
+}
+
+
+.tablesorter-blue .header,
+.tablesorter-blue .tablesorter-header {
+	/* black (unsorted) double arrow */
+	background-image: url(data:image/gif;base64,R0lGODlhFQAJAIAAACMtMP///yH5BAEAAAEALAAAAAAVAAkAAAIXjI+AywnaYnhUMoqt3gZXPmVg94yJVQAAOw==);
+	/* white (unsorted) double arrow */
+	/* background-image: url(data:image/gif;base64,R0lGODlhFQAJAIAAAP///////yH5BAEAAAEALAAAAAAVAAkAAAIXjI+AywnaYnhUMoqt3gZXPmVg94yJVQAAOw==); */
+	/* image */
+	/* background-image: url(images/black-unsorted.gif); */
+	background-repeat: no-repeat;
+	background-position: center right;
+	padding: 4px 18px 4px 4px;
+	white-space: normal;
+	cursor: pointer;
+}
+.tablesorter-blue .headerSortUp,
+.tablesorter-blue .tablesorter-headerSortUp,
+.tablesorter-blue .tablesorter-headerAsc {
+	background-color: #9fbfdf;
+	/* black asc arrow */
+	background-image: url(data:image/gif;base64,R0lGODlhFQAEAIAAACMtMP///yH5BAEAAAEALAAAAAAVAAQAAAINjI8Bya2wnINUMopZAQA7);
+	/* white asc arrow */
+	/* background-image: url(data:image/gif;base64,R0lGODlhFQAEAIAAAP///////yH5BAEAAAEALAAAAAAVAAQAAAINjI8Bya2wnINUMopZAQA7); */
+	/* image */
+	/* background-image: url(images/black-asc.gif); */
+}
+.tablesorter-blue .headerSortDown,
+.tablesorter-blue .tablesorter-headerSortDown,
+.tablesorter-blue .tablesorter-headerDesc {
+	background-color: #8cb3d9;
+	/* black desc arrow */
+	background-image: url(data:image/gif;base64,R0lGODlhFQAEAIAAACMtMP///yH5BAEAAAEALAAAAAAVAAQAAAINjB+gC+jP2ptn0WskLQA7);
+	/* white desc arrow */
+	/* background-image: url(data:image/gif;base64,R0lGODlhFQAEAIAAAP///////yH5BAEAAAEALAAAAAAVAAQAAAINjB+gC+jP2ptn0WskLQA7); */
+	/* image */
+	/* background-image: url(images/black-desc.gif); */
+}
+.tablesorter-blue thead .sorter-false {
+	background-image: none;
+	cursor: default;
+	padding: 4px;
+}
